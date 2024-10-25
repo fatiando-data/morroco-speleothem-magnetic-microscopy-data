@@ -1,39 +1,41 @@
-<!--
-This is a template for datasets in the Fatiando a Terra collection.
+# QDM magnetic microscopy dataset of a speleothem from Morocco - MAT-file
 
-When adding a new dataset, fill out the information below. Search for all
-instances of "CHANGEME" and replace with the relevant information.
+his dataset presents a high-resolution magnetic map of a stalagmite sample from Wintimdouine Cave, Morocco, created using Quantum Diamond Microscope (QDM) measurements at Harvard University. The data were collected to explore the magnetic remanence properties of hematite and magnetite within the sample, providing insight into past geomagnetic field variations recorded in cave deposits.
 
-You probably also want to edit the conda environment.yml file to give the
-environment a new name and add/remove dependencies.
+### Methodology
 
-You can delete this comment once done.
--->
+- **Measurement Equipment**: Quantum Diamond Microscope (QDM)
+- **Sample Dimensions**: 1410 μm x 2256 μm
+- **Grid Spacing**: 2.35 μm
+- **Sensor-Sample Distance**: ~5 μm
+- **Total Data Points**: ~576,000
+- **Magnetic Measurement Mode**: Projected Magnetic Microscopy (PMM)  
+- **Data Conversion**: Magnetic field values converted to the vertical component, \( b_z \), across the grid.
 
-# Location - Data type
+### Sample Characteristics
 
-CHANGEME: A few sentences about the dataset and a plot should go here.
+The stalagmite sample carries magnetic remanence dominated by hematite and magnetite grains:
+- **IRM Pulse Fields Applied**: Two isothermal remanent magnetization (IRM) pulse fields were applied:
+  - 2.7 T in the +Y direction (high coercivity, aligning hematite grains).
+  - 0.3 T in the -Y direction (low coercivity, aligning magnetite grains).
 
-![CHANGEME: The alt text of the image.](preview.jpg)
+### Usage Notes
+
+This dataset can be used for detailed analysis of spatial variations in magnetic remanence, aiding studies in:
+- Paleomagnetic research
+- Environmental magnetism
+- Cave sediment studies
 
 | | Summary |
 |--:|:--|
-| File | `CHANGEME.csv` |
-| Size | CHANGEME Mb |
-| Version | [CHANGEME](https://github.com/fatiando-data/CHANGEME/releases/latest) |
-| DOI | https://doi.org/CHANGEME |
-| License | [CC-BY](https://creativecommons.org/licenses/by/4.0/) |
-| MD5 | `md5:CHANGEME` |
-| SHA256 | `sha256:CHANGEME` |
-| Source | CHANGEME: Citation and/or link to original data source |
-| Original license | CHANGEME: License (with link) of the original source |
+| File | `Bz_uc0.mat` |
+| Size | 10.2 Mb |
+| Version | [v1](https://github.com/fatiando-data/CHANGEME/releases/latest) |
+| DOI | [10.6084/m9.figshare.22965200.v1](https://doi.org/10.6084/m9.figshare.22965200.v1) |
+| License | [CC0](https://creativecommons.org/publicdomain/zero/1.0/) |
+| Source | [10.6084/m9.figshare.22965200.v1](https://doi.org/10.6084/m9.figshare.22965200.v1) |
+| Original license |  [CC0](https://creativecommons.org/publicdomain/zero/1.0/)  |
 | Processing code | [`prepare.ipynb`](https://nbviewer.org/github/fatiando-data/CHANGEME/blob/main/prepare.ipynb) |
-
-## Changes made
-
-> These are the changes made to the original dataset.
-
-* CHANGEME: List here changes made to the original data.
 
 ## About this repository
 
