@@ -1,6 +1,6 @@
 # QDM magnetic microscopy dataset of a speleothem from Morocco - MAT-file
 
-his dataset presents a high-resolution magnetic map of a stalagmite sample from Wintimdouine Cave, Morocco, created using Quantum Diamond Microscope (QDM) measurements at Harvard University. The data were collected to explore the magnetic remanence properties of hematite and magnetite within the sample, providing insight into past geomagnetic field variations recorded in cave deposits.
+This dataset presents a high-resolution magnetic map of a stalagmite sample from Wintimdouine Cave, Morocco, created using Quantum Diamond Microscope (QDM) measurements at Harvard University. The data were collected to explore the magnetic remanence properties of hematite and magnetite within the sample, providing insight into past geomagnetic field variations recorded in cave deposits.
 
 ### Methodology
 
@@ -33,6 +33,7 @@ This dataset can be used for detailed analysis of spatial variations in magnetic
 | Version | [v1](https://github.com/fatiando-data/CHANGEME/releases/latest) |
 | DOI | [10.6084/m9.figshare.22965200.v1](https://doi.org/10.6084/m9.figshare.22965200.v1) |
 | License | [CC0](https://creativecommons.org/publicdomain/zero/1.0/) |
+| MD5 | `md5:268bd3af5e350188d239ff8bd0a88227` |
 | Source | [10.6084/m9.figshare.22965200.v1](https://doi.org/10.6084/m9.figshare.22965200.v1) |
 | Original license |  [CC0](https://creativecommons.org/publicdomain/zero/1.0/)  |
 | Processing code | [`prepare.ipynb`](https://nbviewer.org/github/fatiando-data/CHANGEME/blob/main/prepare.ipynb) |
