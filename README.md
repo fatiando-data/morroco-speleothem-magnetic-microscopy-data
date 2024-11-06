@@ -33,7 +33,8 @@ This dataset can be used for detailed analysis of spatial variations in magnetic
 | Version | [v1](https://github.com/fatiando-data/CHANGEME/releases/latest) |
 | DOI | [10.6084/m9.figshare.22965200.v1](https://doi.org/10.6084/m9.figshare.22965200.v1) |
 | License | [CC0](https://creativecommons.org/publicdomain/zero/1.0/) |
-| MD5 | `md5:268bd3af5e350188d239ff8bd0a88227` |
+| MD5 | `md5:115a15a3aa78542b17ad321a7f0c8edb` |
+| SHA256 | `sha256:c9dd6a43d12d2b75f271e831265e36290e6cd22fbcd747233ef756bef0b69888` |
 | Source | [10.6084/m9.figshare.22965200.v1](https://doi.org/10.6084/m9.figshare.22965200.v1) |
 | Original license |  [CC0](https://creativecommons.org/publicdomain/zero/1.0/)  |
 | Processing code | [`prepare.ipynb`](https://nbviewer.org/github/fatiando-data/CHANGEME/blob/main/prepare.ipynb) |
