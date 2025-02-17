@@ -6,6 +6,9 @@ University. The data were collected to explore the magnetic remanence
 properties of hematite and magnetite within the sample, providing insight into
 past geomagnetic field variations recorded in cave deposits.
 
+Available as both a compressed netCDF file as well as the original Matlab file
+(`.mat`) in the Harvard format.
+
 | | Summary |
 |--:|:--|
 | File | `morroco-speleothem-qdm.mat` |
