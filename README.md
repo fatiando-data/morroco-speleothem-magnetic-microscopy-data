@@ -19,12 +19,12 @@ Available as both a compressed netCDF file as well as the original Matlab file
 | Size | 1.9 Mb |
 | MD5 | `md5:fc2f5eafaa06cf32961bedbc737c58f5` |
 | SHA256 | `sha256:c2e1855b5870b5397593c6c8d177e7a983d4a0e0ea0494a57888bab6e58b0887` |
-| Version | [v1](https://github.com/fatiando-data/CHANGEME/releases/latest) |
+| Version | [v1](https://github.com/fatiando-data/morroco-speleothem-qdm/releases/latest) |
 | DOI | [10.5281/zenodo.14884823](https://doi.org/10.5281/zenodo.14884823) |
 | License | [CC0](https://creativecommons.org/publicdomain/zero/1.0/) |
 | Source | [10.6084/m9.figshare.22965200.v1](https://doi.org/10.6084/m9.figshare.22965200.v1) |
 | Original license |  [CC0](https://creativecommons.org/publicdomain/zero/1.0/)  |
-| Processing code | [`prepare.ipynb`](https://nbviewer.org/github/fatiando-data/CHANGEME/blob/main/prepare.ipynb) |
+| Processing code | [`prepare.ipynb`](https://nbviewer.org/github/fatiando-data/morroco-speleothem-qdm/blob/main/prepare.ipynb) |
 
 ## Changes made
 
