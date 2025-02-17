@@ -1,43 +1,37 @@
-# QDM magnetic microscopy dataset of a speleothem from Morocco - MAT-file
+# QDM magnetic microscopy dataset of a speleothem from Morocco
 
-This dataset presents a high-resolution magnetic map of a stalagmite sample from Wintimdouine Cave, Morocco, created using Quantum Diamond Microscope (QDM) measurements at Harvard University. The data were collected to explore the magnetic remanence properties of hematite and magnetite within the sample, providing insight into past geomagnetic field variations recorded in cave deposits.
-
-### Methodology
-
-- **Measurement Equipment**: Quantum Diamond Microscope (QDM)
-- **Sample Dimensions**: 1410 μm x 2256 μm
-- **Grid Spacing**: 2.35 μm
-- **Sensor-Sample Distance**: ~5 μm
-- **Total Data Points**: ~576,000
-- **Magnetic Measurement Mode**: Projected Magnetic Microscopy (PMM)  
-- **Data Conversion**: Magnetic field values converted to the vertical component, \( b_z \), across the grid.
-
-### Sample Characteristics
-
-The stalagmite sample carries magnetic remanence dominated by hematite and magnetite grains:
-- **IRM Pulse Fields Applied**: Two isothermal remanent magnetization (IRM) pulse fields were applied:
-  - 2.7 T in the +Y direction (high coercivity, aligning hematite grains).
-  - 0.3 T in the -Y direction (low coercivity, aligning magnetite grains).
-
-### Usage Notes
-
-This dataset can be used for detailed analysis of spatial variations in magnetic remanence, aiding studies in:
-- Paleomagnetic research
-- Environmental magnetism
-- Cave sediment studies
+High-resolution magnetic map of a stalagmite sample from Wintimdouine Cave,
+Morocco, created using Quantum Diamond Microscope (QDM) measurements at Harvard
+University. The data were collected to explore the magnetic remanence
+properties of hematite and magnetite within the sample, providing insight into
+past geomagnetic field variations recorded in cave deposits.
 
 | | Summary |
 |--:|:--|
-| File | `Bz_uc0.mat` |
+| File | `morroco-speleothem-qdm.mat` |
 | Size | 10.2 Mb |
+| MD5 | `md5:268bd3af5e350188d239ff8bd0a88227` |
+| SHA256 | `sha256:2f2fbb4dfb645e27af09c76199ebcdd42c0fa137588072d3748eaf3be61fa0a6` |
+| File | `morroco-speleothem-qdm.nc` |
+| Size | 1.9 Mb |
+| MD5 | `md5:fc2f5eafaa06cf32961bedbc737c58f5` |
+| SHA256 | `sha256:c2e1855b5870b5397593c6c8d177e7a983d4a0e0ea0494a57888bab6e58b0887` |
 | Version | [v1](https://github.com/fatiando-data/CHANGEME/releases/latest) |
-| DOI | [10.6084/m9.figshare.22965200.v1](https://doi.org/10.6084/m9.figshare.22965200.v1) |
+| DOI | [10.5281/zenodo.14884823](https://doi.org/10.5281/zenodo.14884823) |
 | License | [CC0](https://creativecommons.org/publicdomain/zero/1.0/) |
-| MD5 | `md5:115a15a3aa78542b17ad321a7f0c8edb` |
-| SHA256 | `sha256:c9dd6a43d12d2b75f271e831265e36290e6cd22fbcd747233ef756bef0b69888` |
 | Source | [10.6084/m9.figshare.22965200.v1](https://doi.org/10.6084/m9.figshare.22965200.v1) |
 | Original license |  [CC0](https://creativecommons.org/publicdomain/zero/1.0/)  |
 | Processing code | [`prepare.ipynb`](https://nbviewer.org/github/fatiando-data/CHANGEME/blob/main/prepare.ipynb) |
+
+## Changes made
+
+> These are the changes made to the original dataset.
+
+Version 1:
+
+* Convert from Matlab format to compressed NetCDF.
+* Add metadata to the NetCDF file.
+* Rename the original Matlab file.
 
 ## About this repository
 

@@ -4,3 +4,4 @@
 # commiting them by mistake.
 *.csv.xz
 *.nc
+*.mat
